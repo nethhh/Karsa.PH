@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
-body {
-  background-color: #fffdee;
+html,body {
   width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
 	overflow-x: hidden;
@@ -19,7 +19,10 @@ body {
 }
 
 header {
-  position: relative; 
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #FFFDEE;
   padding: 1%;
   display: flex;
   justify-content: space-between;
@@ -125,7 +128,7 @@ nav {
   background: white;
   gap: 1.5rem;
   font: Fredoka;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 .home-img img {
   width: 100%;
@@ -136,7 +139,7 @@ nav {
 }
 .home-text h3 {
   color: black;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   font-family: 'Fredoka', sans-serif;
   background: white;
@@ -145,7 +148,7 @@ nav {
 .home-text h1 {
   font-family: 'League Spartan', sans-serif;
   color: #000;
-  font-size: 2rem;
+  font-size: 4rem;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -854,7 +857,7 @@ footer {
 
     .home-text h3 {
       color: black;
-      font-size: 2rem;
+      font-size: 1rem;
       font-weight: 400;
       font-family: 'Fredoka', sans-serif;
       background: white;
@@ -864,7 +867,7 @@ footer {
     .home-text h1 {
       font-family: 'League Spartan', sans-serif;
       color: #000;
-      font-size: 1.5rem;
+      font-size: 2rem;
       padding-top: 10px;
       padding-bottom: 10px;
       text-align: center;
@@ -886,6 +889,7 @@ footer {
       padding-right: 20px;
       height: 400px;
       width: 100%;
+      margin-top: -50px;
     }
 
     #bgpic{
