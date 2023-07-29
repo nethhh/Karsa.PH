@@ -166,7 +166,7 @@ nav {
   padding-left: 0px;
   text-align: center;
 }
-.btn {
+.btn1 {
   background: #FFDE59; 
   display: inline-block;
   padding: 16px 32px;
@@ -174,9 +174,31 @@ nav {
   font-size: 16px;
   font-family: 'League Spartan', sans-serif;
   font-weight: bold;
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
   
 }
-.btn:hover {
+
+.btn2 {
+  background: #FFDE59; 
+  display: inline-block;
+  padding: 16px 32px;
+  color: black;
+  font-size: 16px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.btn1:hover {
+  background: black;
+  color: white;
+}
+
+.btn2:hover {
   background: black;
   color: white;
 }
@@ -843,6 +865,22 @@ footer {
     		color: #f00;
    			cursor: pointer;
     		text-decoration: none;
+    }
+
+    .btn1 {
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .btn2 {
+      margin-left: 20px;
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      border-radius: 10px;
     }
 
     .home {
