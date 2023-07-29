@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Sweet Options</title>
+  <link rel="icon" type="images/x-icon" href="LOGOS/karsa1.png"/>
+  <link rel="stylesheet" type="text/css" href="menukarsa.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="KARSA-Homepage.html" class="logo-link"> 
+        <img src="KARSA Logo.png" alt="Logo" class="logo-img">
+      </a>
+    </div>
+    <a href="#" class="toggle-button" id="menu-toggle">&#9776;</a>
+    <nav id="main-nav">
+      <div class="left-nav">
+        <ul>
+          <li><a href="KARSA-Homepage.html" class="subpage-link">HOME</a></li>
+          <li><a href="About us.html" class="subpage-link">ABOUT</a></li>
+          <li><a href="menukarsa.html" class="subpage-link">MENU</a></li>
+          <li><a href="job.php" class="subpage-link">JOBS</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <ul>
+          <li><a href="https://food.grab.com/ph/en/" target="_blank" class="subpage-link">ORDER ON GRABFOOD</a></li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+<script>
+  document.getElementById("menu-toggle").addEventListener("click", function() {
+    var mainNav = document.getElementById("main-nav");
+    var isOpen = mainNav.classList.contains("open");
+
+    if (isOpen) {
+      mainNav.classList.remove("open");
+    } else {
+      mainNav.classList.add("open");
+    }
+  });
+</script>
+
+  <div class="box1">
+    <h1>Karsarap at Karsaya!</h1>
+  </div>
+
+  <section class="container content-section">
+    <h1 class="main-header"> Our <span>Menu</span></h1>
+    <hr style="height:2px;border-width:0;color:black;background-color:black">
+    <div class = "menu-btns">
+        <button type = "button" class = "menu-btn" id = "Karsalada" onclick="location.href='menukarsa.html'">Karsalada</button>
+        <button type = "button" class = "menu-btn" id = "Karsa Rice Meals" onclick="location.href='KARSA Rice Meals.html'">Karsa Rice Meals</button>
+        <button type = "button" class = "menu-btn" id = "Karsa Nachos" onclick="location.href='KARSA Nachos.html'">Karsa Nachos</button>
+        <button type = "button" class = "menu-btn" id = "Pan De Series" onclick="location.href='Pan De Series.html'">Pan De Series</button>
+        <button type = "button" class = "menu-btn" id = "Pasta" onclick="location.href='Pasta.html'">Pasta</button>
+        <button type = "button" class = "menu-btn active-btn" id = "Sweet Options" onclick="location.href='Sweet Options.html'">Sweet Options</button>
+        <button type = "button" class = "menu-btn" id = "Refreshments" onclick="location.href='Refreshments.html'">Refreshments</button>
+        <button type = "button" class = "menu-btn" id = "Adds Ons" onclick="location.href='Adds On.html'">Adds On</button>
+    </div>
+    <hr style="height:2px;border-width:0;color:black;background-color:black">
+    <h2 class="section-header">SWEET OPTIONS</h2>
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">S1 - Signature Brownie (served w/ vanilla ice cream)</span>
+        <img class="shop-item-image" src="SWEET OPTIONS/S1 - Signature Brownie.jpg" alt="Signature Brownie (served w/ vanilla ice cream)">
+        <div class="shop-item-details">
+          <span class="shop-item-price">₱219.00</span>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">S2 - Original Vanilla Pudding (served w/ hot vanilla sauce)</span>
+        <img class="shop-item-image" src="SWEET OPTIONS/S2 - Original Vanilla Pudding.jpg" alt="Original Vanilla Pudding (served w/ hot vanilla sauce)">
+        <div class="shop-item-details">
+          <span class="shop-item-price">₱249.00 </span>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">S3 - Pan de Tostada (served w/ vanilla ice cream)</span>
+        <img class="shop-item-image" src="SWEET OPTIONS/S3 - Pan de Tostada.jpg" alt="Pan de Tostada (served w/ vanilla ice cream)">
+        <div class="shop-item-details">
+          <span class="shop-item-price">₱159.00</span>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">S4 - Yema Pudding (topped w/ shredded cheese & served w/ yema sauce)</span>
+        <img class="shop-item-image" src="SWEET OPTIONS/S4 - Yema Pudding.jpg" alt="Yema Pudding (topped w/ shredded cheese & served w/ yema sauce)">
+        <div class="shop-item-details">
+          <span class="shop-item-price">₱259.00</span>
+        </div>
+      </div>
+</section>
+
+<section class="footer">
+  <div class="social">
+    <a href="https://www.facebook.com/karsaph" target="_blank"><img src="FOOTER/fb.png" alt="Facebook" class="social-media-img"></a>
+    <a href="https://www.tiktok.com/@karsaph?_t=8dte3dTtKe9&_r=1" target="_blank"><img src="FOOTER/tiktok.png" alt="TikTok" class="social-media-img"></a>
+    <a href="https://www.instagram.com/karsaph/" target="_blank"><img src="FOOTER/ig.png" alt="Instagram" class="social-media-img"></a>
+  </div>
+  <ul class="list">
+    <li>
+      <a href="KARSA-Homepage.html">Home</a>
+    </li>
+    <li>
+      <a href="About us.html">About</a>
+    </li>
+    <li>
+      <a href="Privacy Policy.html">Privacy Policy</a>
+    </li>
+  </ul>
+  <p class="copyright"> 4 Elegant Homes, JB Tan Street, BF Resort Village, Talon Dos, Las Piñas City</p>
+  <p class="copyright">Karsa®</p>
+</section>
+</body>
+</html>

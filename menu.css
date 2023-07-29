@@ -1,0 +1,199 @@
+.menu-btns{
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: center;
+}
+.menu-btn{
+    font-family: var(--Inter);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: black;
+    display: block;
+    margin: 0 1rem;
+    cursor: pointer;
+    outline: 0;
+    transition: opacity 0.4s ease-out;
+    font-family: 'League Spartan', sans-serif;
+}
+.menu-btn::after{
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFDE59;
+    margin-top: 0.5rem;
+    width: 0;
+    transition: width 0.4s ease-out;
+}
+.menu-btn:hover::after{
+    width: 100%;
+}
+.menu-btn:hover{
+    opacity: 0.8;
+}
+.active-btn{
+    color: #FFDE59;
+}
+
+.main-header {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.main-header span {
+    color: #FFDE59;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: .5rem;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: red;
+}
+
+/* General styles for the section */
+.section-header {
+    font-size: -50px;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Styles for each shop-item */
+  .shop-item {
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 5px solid #FFDE59;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(132, 134, 4, 0.993);
+  }
+  
+  .shop-item-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .shop-item-image {
+    width: 250px;
+    height: 210px;
+    margin: 5px auto;
+    display: block;
+  }
+  
+  .shop-item-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .shop-item {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-header {
+      font-size: 2.5rem;
+    }
+  
+    .shop-item {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .shop-item-image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+  @media (max-width: 767px) {
+    .main-header {
+      font-size: 3rem;
+      padding-top: .5rem;
+    }
+
+    .menu-btns {
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
+      display: flex;
+    }
+
+    .menu-btn {
+      width: 100%;
+      text-align: center;
+      padding-right: 40px;
+      font-size: 1.2rem;
+    }
+
+    .box1 h1 {
+        font-size: 3rem;
+    }
+  }
+
+  

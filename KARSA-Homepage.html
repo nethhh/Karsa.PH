@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>KARSA</title>
+  <link rel="icon" type="images/x-icon" href="LOGOS/karsa1.png"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="KARSA-Homepage.html" class="logo-link"> 
+        <img src="KARSA Logo.png" alt="Logo" class="logo-img">
+      </a>
+    </div>
+    <a href="#" class="toggle-button" id="menu-toggle">&#9776;</a>
+    <nav id="main-nav">
+      <div class="left-nav">
+        <ul>
+          <li><a href="KARSA-Homepage.html" class="subpage-link">HOME</a></li>
+          <li><a href="About us.html" class="subpage-link">ABOUT</a></li>
+          <li><a href="menukarsa.html" class="subpage-link">MENU</a></li>
+          <li><a href="job.php" class="subpage-link">JOBS</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <ul>
+          <li><a href="https://food.grab.com/ph/en/" target="_blank" class="subpage-link">ORDER ON GRABFOOD</a></li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+<script>
+  document.getElementById("menu-toggle").addEventListener("click", function() {
+    var mainNav = document.getElementById("main-nav");
+    var isOpen = mainNav.classList.contains("open");
+
+    if (isOpen) {
+      mainNav.classList.remove("open");
+    } else {
+      mainNav.classList.add("open");
+    }
+  });
+</script>
+
+<section class="home" id="home">
+  <div class="home-text">
+      <h3>The First and Original Karsa!</h3>
+      <h1>Karsaya at Karsarap!</h1>
+      <p>To bring happy moments by serving delicious food created with a TLC</p>
+      <a href="menukarsa.html" class="btn">Discover our Menu</a>
+      <a href="About us.html" class="btn">About US</a>
+  </div>
+  <div class="home-img">
+      <img src="INTERIOR/Karsa1.jpg" alt="">
+  </div>
+</section>
+
+<section class="footer">
+  <div class="social">
+    <a href="https://www.facebook.com/karsaph" target="_blank"><img src="FOOTER/fb.png" alt="Facebook" class="social-media-img"></a>
+    <a href="https://www.tiktok.com/@karsaph?_t=8dte3dTtKe9&_r=1" target="_blank"><img src="FOOTER/tiktok.png" alt="TikTok" class="social-media-img"></a>
+    <a href="https://www.instagram.com/karsaph/" target="_blank"><img src="FOOTER/ig.png" alt="Instagram" class="social-media-img"></a>
+  </div>
+  <ul class="list">
+    <li>
+      <a href="KARSA-Homepage.html">Home</a>
+    </li>
+    <li>
+      <a href="About us.html">About</a>
+    </li>
+    <li>
+      <a href="Privacy Policy.html">Privacy Policy</a>
+    </li>
+  </ul>
+  <p class="copyright"> 4 Elegant Homes, JB Tan Street, BF Resort Village, Talon Dos, Las Piñas City</p>
+  <p class="copyright">Karsa®</p>
+</section>
+
+</body>
+</html>
